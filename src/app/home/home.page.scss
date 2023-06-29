@@ -1,0 +1,47 @@
+/* CSS for centering content */
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* CSS for container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    overflow: hidden; /* Add overflow hidden */
+  }
+  
+ /* CSS for circular image */
+.image-circle {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%;
+    border: 2px solid #000; /* Add border styles */
+    object-fit: cover; /* Maintain aspect ratio and fit within the circular border */
+    overflow: hidden; /* Clip any content that goes beyond the circular container */
+  }
+  
+  /* CSS for title */
+  .title {
+    font-size: 35px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-top: 10px; /* Adjust the margin as needed */
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  /* CSS for text */
+  ion-text {
+    font-size: 25px; /* Adjust the font size as needed */
+    margin-top: 5px; /* Adjust the margin as needed */
+    text-align: center;
+    margin-top: 3rem;
+
+  }
+
+  

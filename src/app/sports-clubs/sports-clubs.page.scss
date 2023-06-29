@@ -1,0 +1,29 @@
+.sports-clubs-grid {
+    margin: 20px;
+  }
+  
+  .club-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .club-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .club-card ion-card-header ion-card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .club-card ion-card-content p {
+    font-size: 16px;
+  }
+  

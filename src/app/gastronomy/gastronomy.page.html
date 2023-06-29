@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Gastronomy</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Gastronomy</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card *ngFor="let food of foods">
+    <ion-card-content>
+      <ion-img [src]="food.imageUrl" class="food-image"></ion-img>
+      <ion-card-header>
+        <ion-card-title>{{ food.title }}</ion-card-title>
+        <ion-card-subtitle>{{ food.subtitle }}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        {{ food.description }}
+      </ion-card-content>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

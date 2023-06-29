@@ -1,0 +1,7 @@
+{
+  "name": "Viana",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
